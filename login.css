@@ -1,0 +1,44 @@
+body{
+    background-color: #f9f9f9;
+    overflow: auto;
+}
+
+#loginDiv{
+position: relative;
+border-style : solid;
+border-width: 1px;
+border-radius: 3px;
+width:400px;
+min-width: 300px;
+height : 500px;
+background-color: #fff;
+color: #777;
+border-color: #ddd #ddd #d8d8d8;
+box-shadow: 0 2px 0 rgba(175, 175, 175, 0.12);
+margin: 100px auto 8px;
+}
+#sign-container{
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+background: transparent;
+}
+#sign-header{
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    padding: 30px 90px 30px;
+    border-bottom-color: #ddd;
+}
+.auth-org-logo{
+display: block;
+margin: 0 auto;
+max-width: 200px;
+max-height: 40px;
+}
+.auth-content{
+    padding: 20px 42px 20px;
+}
